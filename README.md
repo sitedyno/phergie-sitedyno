@@ -2,7 +2,9 @@
 
 ## Warning
 
-For example use only. This is a modified version of what powers the Phergie instance running on the Freenode IRC network.
+This is a fork of https://github.com/phergie/phergie-freenode for my personal
+use. You are advised to reference the original repository since it is maintained
+by the Phergie Team.
 
 ## Installation
 
