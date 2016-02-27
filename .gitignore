@@ -2,3 +2,4 @@ vendor
 .env
 *.log
 config.php
+.phergie-reminders
