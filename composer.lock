@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "68c40f9dd4d5fadba1a34976b8a60428",
-    "content-hash": "07604cada8497911e061685d3cd126de",
+    "hash": "6b16c34a03a5012f9703fa2ad806afd7",
+    "content-hash": "ddc051f2286882b6149a75cb0070c171",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-audioscrobbler",
@@ -2057,22 +2057,21 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-react-twitter",
-            "version": "dev-phergie-version2",
+            "version": "dev-tweet-with-linebreaks",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitedyno/phergie-irc-plugin-react-twitter.git",
-                "reference": "f520f7df570c5b90ec499de64c727d5482cb97a0"
+                "reference": "59319cf2ebb0dbe809b78b2693dde1446f48ea10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-irc-plugin-react-twitter/zipball/f520f7df570c5b90ec499de64c727d5482cb97a0",
-                "reference": "f520f7df570c5b90ec499de64c727d5482cb97a0",
+                "url": "https://api.github.com/repos/sitedyno/phergie-irc-plugin-react-twitter/zipball/59319cf2ebb0dbe809b78b2693dde1446f48ea10",
+                "reference": "59319cf2ebb0dbe809b78b2693dde1446f48ea10",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/oauth-subscriber": "~0.1",
                 "nesbot/carbon": "~1",
-                "phergie/phergie-irc-bot-react": "~2",
                 "phergie/phergie-irc-plugin-react-url": "~3"
             },
             "require-dev": {
@@ -2107,7 +2106,7 @@
                 "issues": "https://github.com/phergie/phergie-irc-plugin-react-twitter/issues",
                 "source": "https://github.com/phergie/phergie-irc-plugin-react-twitter"
             },
-            "time": "2016-02-10 04:30:33"
+            "time": "2016-03-19 20:42:03"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-url",
@@ -2988,7 +2987,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-twitch-status/zipball/c04f72fbbff41ee3f58ad17223e21a792ded1c3d",
+                "url": "https://api.github.com/repos/sitedyno/phergie-twitch-status/zipball/598bb45dfcbc5ed5a152526df93ab3d250012728",
                 "reference": "c04f72fbbff41ee3f58ad17223e21a792ded1c3d",
                 "shasum": ""
             },
@@ -3170,7 +3169,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac",
+                "url": "https://api.github.com/repos/symfony/process/zipball/d9d21cfcc3e202ee34777d6da38897695d4d208d",
                 "reference": "6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac",
                 "shasum": ""
             },

@@ -71,7 +71,7 @@
         "phergie/phergie-irc-plugin-react-magic-eight-ball": "^2",
         "phergie/phergie-irc-plugin-react-nickserv": "^2",
         "phergie/phergie-irc-plugin-react-quit": "^2",
-        "phergie/phergie-irc-plugin-react-twitter": "dev-phergie-version2",
+        "phergie/phergie-irc-plugin-react-twitter": "dev-tweet-with-linebreaks",
         "phergie/phergie-irc-plugin-react-url": "^3",
         "phergie/phergie-irc-plugin-react-usermode": "~2",
         "phergie/phergie-irc-plugin-react-youtube": "^2",
