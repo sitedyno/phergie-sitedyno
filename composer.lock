@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b16c34a03a5012f9703fa2ad806afd7",
-    "content-hash": "ddc051f2286882b6149a75cb0070c171",
+    "hash": "6275181507a1adbe3dea36141e4f3f6a",
+    "content-hash": "87275b4d67ada01940ad95786d8a9295",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-audioscrobbler",
@@ -2057,16 +2057,16 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-react-twitter",
-            "version": "dev-tweet-with-linebreaks",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/sitedyno/phergie-irc-plugin-react-twitter.git",
-                "reference": "59319cf2ebb0dbe809b78b2693dde1446f48ea10"
+                "url": "https://github.com/phergie/phergie-irc-plugin-react-twitter.git",
+                "reference": "bd968349b60dcb5e0b18bebd3df848559efb3591"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-irc-plugin-react-twitter/zipball/59319cf2ebb0dbe809b78b2693dde1446f48ea10",
-                "reference": "59319cf2ebb0dbe809b78b2693dde1446f48ea10",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-twitter/zipball/bd968349b60dcb5e0b18bebd3df848559efb3591",
+                "reference": "bd968349b60dcb5e0b18bebd3df848559efb3591",
                 "shasum": ""
             },
             "require": {
@@ -2084,11 +2084,7 @@
                     "Phergie\\Irc\\Plugin\\React\\Twitter\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Phergie\\Irc\\Tests\\Plugin\\React\\Twitter\\": "tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-2-Clause"
             ],
@@ -2100,13 +2096,7 @@
                 "plugin",
                 "twitter"
             ],
-            "support": {
-                "email": "team@phergie.org",
-                "irc": "irc://irc.freenode.net/phergie",
-                "issues": "https://github.com/phergie/phergie-irc-plugin-react-twitter/issues",
-                "source": "https://github.com/phergie/phergie-irc-plugin-react-twitter"
-            },
-            "time": "2016-03-19 20:42:03"
+            "time": "2016-03-21 02:30:38"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-url",
@@ -3429,7 +3419,6 @@
         "chrismou/phergie-irc-plugin-react-pingpong": 20,
         "chrismou/phergie-irc-plugin-react-weather": 20,
         "phergie/phergie-irc-plugin-react-tableflip": 20,
-        "phergie/phergie-irc-plugin-react-twitter": 20,
         "pschwisow/phergie-irc-plugin-react-puppet": 20,
         "pschwisow/phergie-irc-plugin-react-url-shorten": 20,
         "renegade334/phergie-irc-plugin-react-ping": 20,
