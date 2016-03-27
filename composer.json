@@ -45,6 +45,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/sitedyno/phergie-twitch-status"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sitedyno/phergie-steam"
         }
     ],
     "require": {
@@ -77,6 +81,7 @@
         "shutterstock/phergie-irc-plugin-react-bigstock": "dev-phergie-version-2",
         "vlucas/phpdotenv": "^2.1",
         "sitedyno/phergie-reminders": "dev-phergie-version2",
+        "sitedyno/phergie-steam": "dev-master",
         "sitedyno/phergie-twitch-status": "dev-master"
     }
 }
