@@ -2973,12 +2973,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitedyno/phergie-steam.git",
-                "reference": "7149f4325b4608024278a057a3ea677b307b7443"
+                "reference": "08a14a13b9ad5c3bb41eeafa2a5f989500a436f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-steam/zipball/7149f4325b4608024278a057a3ea677b307b7443",
-                "reference": "7149f4325b4608024278a057a3ea677b307b7443",
+                "url": "https://api.github.com/repos/sitedyno/phergie-steam/zipball/08a14a13b9ad5c3bb41eeafa2a5f989500a436f3",
+                "reference": "08a14a13b9ad5c3bb41eeafa2a5f989500a436f3",
                 "shasum": ""
             },
             "require": {
@@ -3028,7 +3028,7 @@
                 "issues": "https://github.com/sitedyno/phergie-steam/issues",
                 "source": "https://github.com/sitedyno/phergie-steam"
             },
-            "time": "2016-03-26 23:49:25"
+            "time": "2016-04-26 21:51:19"
         },
         {
             "name": "sitedyno/phergie-twitch-status",
