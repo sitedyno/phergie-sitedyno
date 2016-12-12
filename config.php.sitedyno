@@ -1,0 +1,200 @@
+<?php
+
+use Chrismou\Phergie\Plugin\Dice\Plugin as DicePlugin;
+use Chrismou\Phergie\Plugin\Google\Plugin as GooglePlugin;
+use Chrismou\Phergie\Plugin\PingPong\Plugin as PingPongPlugin;
+use Chrismou\Phergie\Plugin\Weather\Plugin as WeatherPlugin;
+use Phergie\Irc\Connection;
+use Phergie\Irc\Plugin\React\AutoJoin\Plugin as AutoJoinPlugin;
+use Phergie\Irc\Plugin\React\BOFH\Plugin as BofhPlugin;
+use Phergie\Irc\Plugin\React\Command\Plugin as CommandPlugin;
+use Phergie\Irc\Plugin\React\CommandHelp\Plugin as CommandHelpPlugin;
+use Phergie\Irc\Plugin\React\Daddy\Plugin as DaddyPlugin;
+use Phergie\Irc\Plugin\React\EventFilter\AndFilter as AndFilter;
+use Phergie\Irc\Plugin\React\EventFilter\NotFilter as NotFilter;
+use Phergie\Irc\Plugin\React\EventFilter\OrFilter as OrFilter;
+use Phergie\Irc\Plugin\React\EventFilter\Plugin as EventFilterPlugin;
+use Phergie\Irc\Plugin\React\EventFilter\UserFilter;
+use Phergie\Irc\Plugin\React\EventFilter\UserModeFilter;
+use Phergie\Irc\Plugin\React\JoinPart\Plugin as JoinPartPlugin;
+use Phergie\Irc\Plugin\React\MagicEightBall\Plugin as MagicEightBallPlugin;
+use Phergie\Irc\Plugin\React\NickServ\Plugin as NickServPlugin;
+use Phergie\Irc\Plugin\React\Quit\Plugin as QuitPlugin;
+use Phergie\Irc\Plugin\React\TableFlip\Plugin as TableFlipPlugin;
+use Phergie\Irc\Plugin\React\Twitter\Plugin as TwitterPlugin;
+use Phergie\Irc\Plugin\React\Url\DefaultUrlHandler;
+use Phergie\Irc\Plugin\React\Url\Filter as UrlFilters;
+use Phergie\Irc\Plugin\React\Url\Mime as MimeHandlers;
+use Phergie\Irc\Plugin\React\Url\Plugin as UrlPlugin;
+use Phergie\Irc\Plugin\React\UserMode\Plugin as UserModePlugin;
+use Phergie\Irc\Plugin\React\YouTube\Plugin as YouTubePlugin;
+use Phergie\Plugin\Dns\Plugin as DnsPlugin;
+use Phergie\Plugin\Http\Plugin as HttpPlugin;
+use PSchwisow\Phergie\Plugin\UrlShorten\Plugin as UrlShortenPlugin;
+use PSchwisow\Phergie\Plugin\Puppet\Plugin as PuppetPlugin;
+use Renegade334\Phergie\Plugin\React\Ping\Plugin as PingPlugin;
+use Sitedyno\Phergie\Plugin\Reminders\Plugin as RemindersPlugin;
+use Sitedyno\Phergie\Plugin\Steam\Plugin as SteamPlugin;
+use Sitedyno\Phergie\Plugin\TwitchStatus\Plugin as TwitchPlugin;
+
+$dotenv = new Dotenv\Dotenv(__DIR__);
+$dotenv->load();
+
+$bofh = new BofhPlugin([]);
+
+$dice = new DicePlugin;
+
+$google = new GooglePlugin;
+
+$joinpart = new JoinPartPlugin;
+
+$puppet = new PuppetPlugin;
+
+$reminders = new RemindersPlugin;
+
+$steamPlugin = new SteamPlugin;
+
+$table_flip = new TableFlipPlugin;
+
+$twitchPlugin = new TwitchPlugin;
+
+$usermode = new UserModePlugin;
+
+$weather = new WeatherPlugin([
+    'config' => [
+        'appId' => getenv('WEATHER_APP_ID'),
+    ],
+]);
+
+$quit = new QuitPlugin;
+
+return [
+
+    'plugins' => [
+
+        new AutoJoinPlugin([
+            'channels' => [
+                getenv('CHANNELS')
+            ],
+            'wait-for-nickserv' => true,
+        ]),
+
+        $bofh,
+
+        new CommandHelpPlugin([
+            'plugins' => [
+                $bofh,
+                $dice,
+                $google,
+                $joinpart,
+                $puppet,
+                $reminders,
+                $table_flip,
+                $weather,
+                $quit,
+            ],
+        ]),
+
+        new CommandPlugin([
+            'pattern' => getenv('COMMANDPATTERN'),
+        ]),
+
+        new DaddyPlugin,
+
+        $dice,
+
+        new DnsPlugin,
+
+        new EventFilterPlugin([
+            'plugins' => [
+                $joinpart,
+                $puppet,
+                $quit,
+            ],
+            'filter' => new UserFilter([
+                getenv('OPERATOR1'),
+                getenv('OPERATOR2'),
+            ]), # CHANGE ME
+        ]),
+
+        $google,
+
+        new HttpPlugin,
+
+        $joinpart,
+
+        new MagicEightBallPlugin,
+
+        new NickServPlugin([
+            'password' => getenv('NICKSERV_PASSWORD'),
+            'loggedinpattern' => '/Password accepted/',
+        ]),
+
+        new PingPlugin,
+
+        new PingPongPlugin([
+            'reply' => true,
+        ]),
+
+        $reminders,
+
+        $steamPlugin,
+
+        $table_flip,
+
+        $twitchPlugin,
+
+        new TwitterPlugin([
+            'consumer_key' => getenv('TWITTER_CONSUMER_KEY'),
+            'consumer_secret' => getenv('TWITTER_CONSUMER_SECRET'),
+            'token' => getenv('TWITTER_TOKEN'),
+            'token_secret' => getenv('TWITTER_TOKEN_SECRET')
+        ]),
+
+        $usermode,
+
+        new UrlPlugin([
+            'handler' => new DefaultUrlHandler(
+                '[%http-status-code% %url-short%] %composed-title%',
+                [
+                    new MimeHandlers\Html,
+                    new MimeHandlers\Image,
+                ]
+            ),
+            'filter' => new NotFilter(new OrFilter([
+                new UrlFilters\UrlSectionFilter('scheme', 'https', true),
+                new UrlFilters\UrlSectionFilter('host', '*.twitch.tv', true),
+                new UrlFilters\UrlSectionFilter('host', 'store.steampowered.com', true),
+            ]))
+        ]),
+
+        new UrlShortenPlugin,
+
+        $weather,
+
+        new YouTubePlugin([
+            'key' => getenv('YOUTUBE_KEY'),
+            'publishedFormat' => 'Y-m-d H:i',
+            'durationFormat' => '%hh%im',
+            'responseFormat' => '[%link%] %title% by %author% %duration%'
+                . ' %published% %views% Views %likes% Likes',
+        ]),
+
+    ],
+
+    'connections' => [
+
+        new Connection([
+            'serverHostname' => getenv('NET1SERVERHOSTNAME'),
+            'serverPort' => 6697,
+            'username' => getenv('NET1USERNAME'), # CHANGE ME
+            'realname' => getenv('NET1REALNAME'), # CHANGE ME
+            'nickname' => getenv('NET1NICKNAME'), # CHANGE ME
+            'options' => [
+                'transport' => 'ssl',
+            ],
+        ]),
+
+    ],
+
+];
