@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d102fdc69659b77d1fbb3ccbceb9b4ae",
-    "content-hash": "2148d2bd3fd69988f1bf2960419cb334",
+    "hash": "8ab6b7bc6e774ef5af1a97ee12998339",
+    "content-hash": "66453b216435a4d6f6dd609863443154",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-audioscrobbler",
@@ -2292,16 +2292,16 @@
         },
         {
             "name": "pschwisow/phergie-irc-plugin-react-url-shorten",
-            "version": "dev-version2-updates",
+            "version": "3.0.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-url-shorten.git",
-                "reference": "a43563797145a943f6319681fda93c4cee23c33d"
+                "url": "https://github.com/PSchwisow/phergie-irc-plugin-react-url-shorten.git",
+                "reference": "02be6e25e3d1b1457ff217f6d3f2947dfee82bb5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-url-shorten/zipball/a43563797145a943f6319681fda93c4cee23c33d",
-                "reference": "a43563797145a943f6319681fda93c4cee23c33d",
+                "url": "https://api.github.com/repos/PSchwisow/phergie-irc-plugin-react-url-shorten/zipball/02be6e25e3d1b1457ff217f6d3f2947dfee82bb5",
+                "reference": "02be6e25e3d1b1457ff217f6d3f2947dfee82bb5",
                 "shasum": ""
             },
             "require": {
@@ -2319,11 +2319,7 @@
                     "PSchwisow\\Phergie\\Plugin\\UrlShorten\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PSchwisow\\Phergie\\Tests\\Plugin\\UrlShorten\\": "tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-2-Clause"
             ],
@@ -2334,13 +2330,7 @@
                 "phergie",
                 "plugin"
             ],
-            "support": {
-                "email": "patrick.schwisow@gmail.com",
-                "irc": "irc://irc.freenode.net/phergie",
-                "issues": "https://github.com/PSchwisow/phergie-irc-plugin-react-url-shorten/issues",
-                "source": "https://github.com/PSchwisow/phergie-irc-plugin-react-url-shorten"
-            },
-            "time": "2015-12-31 14:57:29"
+            "time": "2016-05-20 20:08:17"
         },
         {
             "name": "psr/http-message",
@@ -3483,7 +3473,6 @@
         "chrismou/phergie-irc-plugin-react-weather": 20,
         "phergie/phergie-irc-plugin-react-tableflip": 20,
         "pschwisow/phergie-irc-plugin-react-puppet": 20,
-        "pschwisow/phergie-irc-plugin-react-url-shorten": 20,
         "renegade334/phergie-irc-plugin-react-ping": 20,
         "shutterstock/phergie-irc-plugin-react-bigstock": 20,
         "sitedyno/phergie-reminders": 20,

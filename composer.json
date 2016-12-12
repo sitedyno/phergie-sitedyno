@@ -12,10 +12,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-url-shorten"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/svpernova09/phergie-irc-plugin-react-audioscrobbler"
         },
         {
@@ -76,7 +72,7 @@
         "phergie/phergie-irc-plugin-react-usermode": "~2",
         "phergie/phergie-irc-plugin-react-youtube": "^2",
         "pschwisow/phergie-irc-plugin-react-puppet": "dev-phergie-version2",
-        "pschwisow/phergie-irc-plugin-react-url-shorten": "dev-version2-updates",
+        "pschwisow/phergie-irc-plugin-react-url-shorten": "~3",
         "renegade334/phergie-irc-plugin-react-ping": "dev-version2-updates",
         "shutterstock/phergie-irc-plugin-react-bigstock": "dev-phergie-version-2",
         "vlucas/phpdotenv": "^2.1",
