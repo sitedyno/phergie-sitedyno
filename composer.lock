@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e4e647d43a48be9306a4d5882c0f16f6",
-    "content-hash": "2a98bae5d3f12177a72f3e8ff1632789",
+    "hash": "6b29925046d6d8bdff9d659074477fec",
+    "content-hash": "687c08482966e1b2e079ab2e8543f92d",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-audioscrobbler",
@@ -2162,16 +2162,16 @@
         },
         {
             "name": "pschwisow/phergie-irc-plugin-react-puppet",
-            "version": "dev-phergie-version2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-puppet.git",
-                "reference": "21d5ea6320db47aaa951148b2479ade83f343fb3"
+                "url": "https://github.com/PSchwisow/phergie-irc-plugin-react-puppet.git",
+                "reference": "f8b62a6d0f45cfe0fcaeb406cd91012f54255910"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-puppet/zipball/21d5ea6320db47aaa951148b2479ade83f343fb3",
-                "reference": "21d5ea6320db47aaa951148b2479ade83f343fb3",
+                "url": "https://api.github.com/repos/PSchwisow/phergie-irc-plugin-react-puppet/zipball/f8b62a6d0f45cfe0fcaeb406cd91012f54255910",
+                "reference": "f8b62a6d0f45cfe0fcaeb406cd91012f54255910",
                 "shasum": ""
             },
             "require": {
@@ -2193,11 +2193,7 @@
                     "PSchwisow\\Phergie\\Plugin\\Puppet\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PSchwisow\\Phergie\\Tests\\Plugin\\Puppet\\": "tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-2-Clause"
             ],
@@ -2208,13 +2204,7 @@
                 "phergie",
                 "plugin"
             ],
-            "support": {
-                "email": "patrick.schwisow@gmail.com",
-                "irc": "irc://irc.freenode.net/phergie",
-                "issues": "https://github.com/PSchwisow/phergie-irc-plugin-react-puppet/issues",
-                "source": "https://github.com/PSchwisow/phergie-irc-plugin-react-puppet"
-            },
-            "time": "2015-12-31 15:41:28"
+            "time": "2016-04-22 21:05:49"
         },
         {
             "name": "pschwisow/phergie-irc-plugin-react-url-shorten",
@@ -3397,7 +3387,6 @@
         "chrismou/phergie-irc-plugin-react-pingpong": 20,
         "chrismou/phergie-irc-plugin-react-weather": 20,
         "phergie/phergie-irc-plugin-react-tableflip": 20,
-        "pschwisow/phergie-irc-plugin-react-puppet": 20,
         "renegade334/phergie-irc-plugin-react-ping": 20,
         "shutterstock/phergie-irc-plugin-react-bigstock": 20,
         "sitedyno/phergie-reminders": 20,

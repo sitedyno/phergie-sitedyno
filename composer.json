@@ -24,10 +24,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-puppet"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/svpernova09/phergie-irc-plugin-react-dice"
         },
         {
@@ -70,13 +66,13 @@
         "phergie/phergie-irc-plugin-react-url": "^3",
         "phergie/phergie-irc-plugin-react-usermode": "~2",
         "phergie/phergie-irc-plugin-react-youtube": "^2",
-        "pschwisow/phergie-irc-plugin-react-puppet": "dev-phergie-version2",
         "pschwisow/phergie-irc-plugin-react-url-shorten": "~3",
         "renegade334/phergie-irc-plugin-react-ping": "dev-version2-updates",
         "shutterstock/phergie-irc-plugin-react-bigstock": "dev-phergie-version-2",
         "vlucas/phpdotenv": "^2.1",
         "sitedyno/phergie-reminders": "dev-phergie-version2",
         "sitedyno/phergie-steam": "dev-master",
-        "sitedyno/phergie-twitch-status": "dev-master"
+        "sitedyno/phergie-twitch-status": "dev-master",
+        "pschwisow/phergie-irc-plugin-react-puppet": "^2.0"
     }
 }
