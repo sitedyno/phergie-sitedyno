@@ -8,14 +8,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-audioscrobbler"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-google"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/svpernova09/phergie-irc-plugin-react-weather"
         },
         {
@@ -40,7 +32,6 @@
         }
     ],
     "require": {
-        "chrismou/phergie-irc-plugin-react-audioscrobbler": "dev-phergie-version2",
         "chrismou/phergie-irc-plugin-react-dice": "dev-version-2-updates",
         "chrismou/phergie-irc-plugin-react-pingpong": "dev-phergie-version2",
         "chrismou/phergie-irc-plugin-react-weather": "dev-version2-updates",
