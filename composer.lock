@@ -1268,16 +1268,16 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-react-commandhelp",
-            "version": "2.0.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-commandhelp.git",
-                "reference": "b7851c52e461967f46d81f4ebe4c484e0b70508d"
+                "reference": "24197ba741b8122ff1b0c0e441117fef92bd3100"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-commandhelp/zipball/b7851c52e461967f46d81f4ebe4c484e0b70508d",
-                "reference": "b7851c52e461967f46d81f4ebe4c484e0b70508d",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-commandhelp/zipball/24197ba741b8122ff1b0c0e441117fef92bd3100",
+                "reference": "24197ba741b8122ff1b0c0e441117fef92bd3100",
                 "shasum": ""
             },
             "require": {
@@ -1285,8 +1285,8 @@
                 "phergie/phergie-irc-plugin-react-command": "~2"
             },
             "require-dev": {
-                "phake/phake": "2.0.0-beta2",
-                "phpunit/phpunit": "4.1.*"
+                "phake/phake": "@stable",
+                "phpunit/phpunit": "4.5.*"
             },
             "type": "library",
             "autoload": {
@@ -1305,7 +1305,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2015-12-21 22:40:49"
+            "time": "2016-04-25 23:29:01"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-daddy",
