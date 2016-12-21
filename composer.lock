@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6b29925046d6d8bdff9d659074477fec",
-    "content-hash": "687c08482966e1b2e079ab2e8543f92d",
+    "hash": "3ffd00395d10fbdcf6005a5b7b97cd27",
+    "content-hash": "4776e1ae7b50a2b26b337d90f0378f2b",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-audioscrobbler",
@@ -2742,81 +2742,6 @@
             "time": "2015-12-29 19:02:43"
         },
         {
-            "name": "shutterstock/phergie-irc-plugin-react-bigstock",
-            "version": "dev-phergie-version-2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-bigstock.git",
-                "reference": "49ca2ba8765dec6a0b00f5a95cdf9ef622173479"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-bigstock/zipball/49ca2ba8765dec6a0b00f5a95cdf9ef622173479",
-                "reference": "49ca2ba8765dec6a0b00f5a95cdf9ef622173479",
-                "shasum": ""
-            },
-            "require": {
-                "phergie/phergie-irc-bot-react": "~2",
-                "phergie/phergie-irc-plugin-react-command": "~2",
-                "phergie/phergie-irc-plugin-react-url": "~3"
-            },
-            "require-dev": {
-                "phake/phake": "~2.1",
-                "phpunit/phpunit": "4.5.*"
-            },
-            "suggest": {
-                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands",
-                "pschwisow/phergie-irc-plugin-react-url-shorten": "makes short URLs available for output"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Shutterstock\\Phergie\\Plugin\\Bigstock\\": "src"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Shutterstock\\Phergie\\Tests\\Plugin\\Bigstock\\": "tests"
-                }
-            },
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Patrick Schwisow",
-                    "email": "patrick.schwisow@gmail.com",
-                    "homepage": "http://www.bigstockphoto.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Jacob Emerick",
-                    "email": "jpemeric@gmail.com",
-                    "homepage": "http://www.bigstockphoto.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Phergie plugin for Use Bigstock API to search for and display images",
-            "keywords": [
-                "bot",
-                "irc",
-                "phergie",
-                "plugin"
-            ],
-            "support": {
-                "email": "patrick.schwisow@gmail.com",
-                "irc": "irc://irc.freenode.net/phergie",
-                "issues": "https://github.com/shutterstock/phergie-irc-plugin-react-bigstock/issues",
-                "source": "https://github.com/shutterstock/phergie-irc-plugin-react-bigstock"
-            },
-            "time": "2015-12-31 14:53:50"
-        },
-        {
             "name": "sitedyno/phergie-reminders",
             "version": "dev-phergie-version2",
             "source": {
@@ -3388,7 +3313,6 @@
         "chrismou/phergie-irc-plugin-react-weather": 20,
         "phergie/phergie-irc-plugin-react-tableflip": 20,
         "renegade334/phergie-irc-plugin-react-ping": 20,
-        "shutterstock/phergie-irc-plugin-react-bigstock": 20,
         "sitedyno/phergie-reminders": 20,
         "sitedyno/phergie-steam": 20,
         "sitedyno/phergie-twitch-status": 20
