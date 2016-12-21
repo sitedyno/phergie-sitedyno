@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "0970bbac5a744f3c233dd6d465085fc9",
-    "content-hash": "c642952a12585f34ef60a538f6ff9de6",
+    "hash": "1e2cb91b2ef545f5c66ce401dcb01885",
+    "content-hash": "681d77766e9267b9904ce605a231b328",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-dice",
@@ -2336,21 +2336,22 @@
         },
         {
             "name": "sitedyno/phergie-reminders",
-            "version": "dev-phergie-version2",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitedyno/phergie-reminders.git",
-                "reference": "bae811d58d63ad1e5df57fe13329d28beb86e1da"
+                "reference": "4dd0e48cea0722277e6458c6a7cf534f244807b9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-reminders/zipball/bae811d58d63ad1e5df57fe13329d28beb86e1da",
-                "reference": "bae811d58d63ad1e5df57fe13329d28beb86e1da",
+                "url": "https://api.github.com/repos/sitedyno/phergie-reminders/zipball/4dd0e48cea0722277e6458c6a7cf534f244807b9",
+                "reference": "4dd0e48cea0722277e6458c6a7cf534f244807b9",
                 "shasum": ""
             },
             "require": {
                 "phergie/phergie-irc-bot-react": "^2",
-                "phergie/phergie-irc-plugin-react-command": "^2"
+                "phergie/phergie-irc-plugin-react-command": "^2",
+                "php": ">=5.5"
             },
             "require-dev": {
                 "phake/phake": "2.1.0",
@@ -2389,7 +2390,7 @@
                 "phergie",
                 "plugin"
             ],
-            "time": "2016-02-10 06:44:32"
+            "time": "2016-12-21 04:32:12"
         },
         {
             "name": "sitedyno/phergie-steam",
@@ -2794,7 +2795,6 @@
         "chrismou/phergie-irc-plugin-react-pingpong": 20,
         "chrismou/phergie-irc-plugin-react-weather": 20,
         "renegade334/phergie-irc-plugin-react-ping": 20,
-        "sitedyno/phergie-reminders": 20,
         "sitedyno/phergie-steam": 20,
         "sitedyno/phergie-twitch-status": 20
     },

@@ -45,11 +45,11 @@
         "pschwisow/phergie-irc-plugin-react-url-shorten": "~3",
         "renegade334/phergie-irc-plugin-react-ping": "dev-version2-updates",
         "vlucas/phpdotenv": "^2.1",
-        "sitedyno/phergie-reminders": "dev-phergie-version2",
         "sitedyno/phergie-steam": "dev-master",
         "sitedyno/phergie-twitch-status": "dev-master",
         "pschwisow/phergie-irc-plugin-react-puppet": "^2.0",
         "chrismou/phergie-irc-plugin-react-dice": "^2.0",
-        "elstamey/phergie-irc-plugin-react-tableflip": "^1.4"
+        "elstamey/phergie-irc-plugin-react-tableflip": "^1.4",
+        "sitedyno/phergie-reminders": "^2.0"
     }
 }
