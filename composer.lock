@@ -1171,16 +1171,16 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-react-bofh",
-            "version": "3.0.0",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-bofh.git",
-                "reference": "694c744ade50a4a4e9b5e5e7bae99ca620fcaeee"
+                "reference": "742f0d0b1e6f5cf91a3fd0c0995c5040bce086f1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-bofh/zipball/694c744ade50a4a4e9b5e5e7bae99ca620fcaeee",
-                "reference": "694c744ade50a4a4e9b5e5e7bae99ca620fcaeee",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-bofh/zipball/742f0d0b1e6f5cf91a3fd0c0995c5040bce086f1",
+                "reference": "742f0d0b1e6f5cf91a3fd0c0995c5040bce086f1",
                 "shasum": ""
             },
             "require": {
@@ -1224,7 +1224,7 @@
                 "phergie",
                 "plugin"
             ],
-            "time": "2015-12-31 14:48:47"
+            "time": "2016-04-25 22:36:51"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-command",
