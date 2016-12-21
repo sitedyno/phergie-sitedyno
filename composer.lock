@@ -1359,16 +1359,16 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-react-eventfilter",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-eventfilter.git",
-                "reference": "a72091d14a3a357d44fea69e192ed863cdad5f07"
+                "reference": "033fb0e17e6beaa2315cf8f26cda9d138af2464c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-eventfilter/zipball/a72091d14a3a357d44fea69e192ed863cdad5f07",
-                "reference": "a72091d14a3a357d44fea69e192ed863cdad5f07",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-eventfilter/zipball/033fb0e17e6beaa2315cf8f26cda9d138af2464c",
+                "reference": "033fb0e17e6beaa2315cf8f26cda9d138af2464c",
                 "shasum": ""
             },
             "require": {
@@ -1399,7 +1399,7 @@
                 "plugin",
                 "react"
             ],
-            "time": "2016-03-21 22:54:41"
+            "time": "2016-04-27 00:24:22"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-joinpart",
