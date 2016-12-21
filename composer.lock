@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "8ab6b7bc6e774ef5af1a97ee12998339",
-    "content-hash": "66453b216435a4d6f6dd609863443154",
+    "hash": "e4e647d43a48be9306a4d5882c0f16f6",
+    "content-hash": "2a98bae5d3f12177a72f3e8ff1632789",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-audioscrobbler",
@@ -153,80 +153,6 @@
                 "source": "https://github.com/chrismou/phergie-irc-plugin-react-dice"
             },
             "time": "2015-12-31 15:47:14"
-        },
-        {
-            "name": "chrismou/phergie-irc-plugin-react-google",
-            "version": "dev-phergie-version2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-google.git",
-                "reference": "3f407d7e1e0cdc36d90b49c026c8a151c984939a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-google/zipball/3f407d7e1e0cdc36d90b49c026c8a151c984939a",
-                "reference": "3f407d7e1e0cdc36d90b49c026c8a151c984939a",
-                "shasum": ""
-            },
-            "require": {
-                "phergie/phergie-irc-bot-react": "<4.0",
-                "phergie/phergie-irc-plugin-http": "~4.0",
-                "phergie/phergie-irc-plugin-react-command": "~2.0",
-                "php": ">=5.5.0"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "dev-master",
-                "phake/phake": "2.0.0-beta2",
-                "phpunit/phpunit": "4.*",
-                "squizlabs/php_codesniffer": "*",
-                "vectorface/dunit": "^2.1"
-            },
-            "suggest": {
-                "phergie/phergie-irc-plugin-react-commandalias": "set up aliases for bot commands",
-                "phergie/phergie-irc-plugin-react-commandhelp": "provides interactive help for commands"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.0-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Chrismou\\Phergie\\Plugin\\Google\\": "src"
-                }
-            },
-            "autoload-dev": {
-                "psr-4": {
-                    "Chrismou\\Phergie\\Tests\\Plugin\\Google\\": "tests"
-                }
-            },
-            "license": [
-                "BSD-2-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Chris Chrisostomou",
-                    "email": "dev@mou.me",
-                    "homepage": "https://mou.me",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Phergie plugin for returning Google search results and estimated result counts",
-            "homepage": "http://github.com/chrismou/phergie-irc-plugin-react-google",
-            "keywords": [
-                "bot",
-                "irc",
-                "phergie",
-                "plugin"
-            ],
-            "support": {
-                "email": "dev@mou.me",
-                "irc": "irc://irc.freenode.net/phergie",
-                "issues": "https://github.com/chrismou/phergie-irc-plugin-react-google/issues",
-                "source": "https://github.com/chrismou/phergie-irc-plugin-react-google"
-            },
-            "time": "2015-12-31 15:13:10"
         },
         {
             "name": "chrismou/phergie-irc-plugin-react-pingpong",
@@ -2910,7 +2836,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-reminders/zipball/191cfcad2e60044cb9a6ccbce533daac096c67bd",
+                "url": "https://api.github.com/repos/sitedyno/phergie-reminders/zipball/bae811d58d63ad1e5df57fe13329d28beb86e1da",
                 "reference": "bae811d58d63ad1e5df57fe13329d28beb86e1da",
                 "shasum": ""
             },
@@ -3030,7 +2956,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-twitch-status/zipball/598bb45dfcbc5ed5a152526df93ab3d250012728",
+                "url": "https://api.github.com/repos/sitedyno/phergie-twitch-status/zipball/c04f72fbbff41ee3f58ad17223e21a792ded1c3d",
                 "reference": "c04f72fbbff41ee3f58ad17223e21a792ded1c3d",
                 "shasum": ""
             },
@@ -3212,7 +3138,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/d9d21cfcc3e202ee34777d6da38897695d4d208d",
+                "url": "https://api.github.com/repos/symfony/process/zipball/6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac",
                 "reference": "6f1979c3b0f4c22c77a8a8971afaa7dd07f082ac",
                 "shasum": ""
             },
@@ -3468,7 +3394,6 @@
     "stability-flags": {
         "chrismou/phergie-irc-plugin-react-audioscrobbler": 20,
         "chrismou/phergie-irc-plugin-react-dice": 20,
-        "chrismou/phergie-irc-plugin-react-google": 20,
         "chrismou/phergie-irc-plugin-react-pingpong": 20,
         "chrismou/phergie-irc-plugin-react-weather": 20,
         "phergie/phergie-irc-plugin-react-tableflip": 20,

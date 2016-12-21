@@ -50,7 +50,6 @@
     "require": {
         "chrismou/phergie-irc-plugin-react-audioscrobbler": "dev-phergie-version2",
         "chrismou/phergie-irc-plugin-react-dice": "dev-version-2-updates",
-        "chrismou/phergie-irc-plugin-react-google": "dev-phergie-version2",
         "chrismou/phergie-irc-plugin-react-pingpong": "dev-phergie-version2",
         "chrismou/phergie-irc-plugin-react-weather": "dev-version2-updates",
         "phergie/phergie-irc-plugin-react-tableflip": "dev-version-2-updates",
