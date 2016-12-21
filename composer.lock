@@ -4,30 +4,31 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "dec0d947270d821a2ae693662a8c5d20",
-    "content-hash": "177a8f2678e3eab94b153d12dc35df58",
+    "hash": "77f732b3e391c915a2b48548de5956ee",
+    "content-hash": "b9fac81c5d57697ce7cecaeb6bcd497b",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-dice",
-            "version": "dev-version-2-updates",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/svpernova09/phergie-irc-plugin-react-dice.git",
-                "reference": "aa2f0026080e0e642667c0c4f49620c647ea32ea"
+                "url": "https://github.com/chrismou/phergie-irc-plugin-react-dice.git",
+                "reference": "ded1fe757947279a2034ff888130099ad1f9615a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/svpernova09/phergie-irc-plugin-react-dice/zipball/aa2f0026080e0e642667c0c4f49620c647ea32ea",
-                "reference": "aa2f0026080e0e642667c0c4f49620c647ea32ea",
+                "url": "https://api.github.com/repos/chrismou/phergie-irc-plugin-react-dice/zipball/ded1fe757947279a2034ff888130099ad1f9615a",
+                "reference": "ded1fe757947279a2034ff888130099ad1f9615a",
                 "shasum": ""
             },
             "require": {
-                "phergie/phergie-irc-bot-react": "<3.0",
+                "phergie/phergie-irc-bot-react": "~2.0",
                 "phergie/phergie-irc-plugin-react-command": "~2.0"
             },
             "require-dev": {
                 "codeclimate/php-test-reporter": "dev-master",
                 "phake/phake": "2.0.0-beta2",
+                "phergie/phergie-irc-plugin-react-autojoin": "~2.0",
                 "phpunit/phpunit": "4.*",
                 "squizlabs/php_codesniffer": "*",
                 "vectorface/dunit": "^2.1"
@@ -46,11 +47,7 @@
                     "Chrismou\\Phergie\\Plugin\\Dice\\": "src"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "Chrismou\\Phergie\\Tests\\Plugin\\Dice\\": "tests"
-                }
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-2-Clause"
             ],
@@ -70,13 +67,7 @@
                 "phergie",
                 "plugin"
             ],
-            "support": {
-                "email": "dev@mou.me",
-                "irc": "irc://irc.freenode.net/phergie",
-                "issues": "https://github.com/chrismou/phergie-irc-plugin-react-dice/issues",
-                "source": "https://github.com/chrismou/phergie-irc-plugin-react-dice"
-            },
-            "time": "2015-12-31 15:47:14"
+            "time": "2016-01-01 23:37:35"
         },
         {
             "name": "chrismou/phergie-irc-plugin-react-pingpong",
@@ -3182,7 +3173,6 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "chrismou/phergie-irc-plugin-react-dice": 20,
         "chrismou/phergie-irc-plugin-react-pingpong": 20,
         "chrismou/phergie-irc-plugin-react-weather": 20,
         "phergie/phergie-irc-plugin-react-tableflip": 20,

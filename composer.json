@@ -12,10 +12,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/svpernova09/phergie-irc-plugin-react-dice"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/svpernova09/phergie-irc-plugin-react-pingpong"
         },
         {
@@ -32,7 +28,6 @@
         }
     ],
     "require": {
-        "chrismou/phergie-irc-plugin-react-dice": "dev-version-2-updates",
         "chrismou/phergie-irc-plugin-react-pingpong": "dev-phergie-version2",
         "chrismou/phergie-irc-plugin-react-weather": "dev-version2-updates",
         "phergie/phergie-irc-plugin-react-tableflip": "dev-version-2-updates",
@@ -59,6 +54,7 @@
         "sitedyno/phergie-reminders": "dev-phergie-version2",
         "sitedyno/phergie-steam": "dev-master",
         "sitedyno/phergie-twitch-status": "dev-master",
-        "pschwisow/phergie-irc-plugin-react-puppet": "^2.0"
+        "pschwisow/phergie-irc-plugin-react-puppet": "^2.0",
+        "chrismou/phergie-irc-plugin-react-dice": "^2.0"
     }
 }
