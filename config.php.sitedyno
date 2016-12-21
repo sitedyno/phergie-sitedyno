@@ -1,7 +1,6 @@
 <?php
 
 use Chrismou\Phergie\Plugin\Dice\Plugin as DicePlugin;
-use Chrismou\Phergie\Plugin\Google\Plugin as GooglePlugin;
 use Chrismou\Phergie\Plugin\PingPong\Plugin as PingPongPlugin;
 use Chrismou\Phergie\Plugin\Weather\Plugin as WeatherPlugin;
 use Phergie\Irc\Connection;
@@ -44,8 +43,6 @@ $bofh = new BofhPlugin([]);
 
 $dice = new DicePlugin;
 
-$google = new GooglePlugin;
-
 $joinpart = new JoinPartPlugin;
 
 $puppet = new PuppetPlugin;
@@ -85,7 +82,6 @@ return [
             'plugins' => [
                 $bofh,
                 $dice,
-                $google,
                 $joinpart,
                 $puppet,
                 $reminders,
@@ -116,8 +112,6 @@ return [
                 getenv('OPERATOR2'),
             ]), # CHANGE ME
         ]),
-
-        $google,
 
         new HttpPlugin,
 
