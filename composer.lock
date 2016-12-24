@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "1e2cb91b2ef545f5c66ce401dcb01885",
-    "content-hash": "681d77766e9267b9904ce605a231b328",
+    "hash": "a0ba9cd363537574d3509595e8434936",
+    "content-hash": "d036f0a092422da6793d9989ebf2f8a1",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-dice",
@@ -1074,22 +1074,22 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-http",
-            "version": "4.0.1",
+            "version": "dev-pass-headers-to-guzzle-request",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phergie/plugin-http.git",
-                "reference": "b6ad183e193f25ef09119e3fc65057f5be23cffd"
+                "url": "https://github.com/sitedyno/plugin-http.git",
+                "reference": "bee37c29fdc1f8ef69752c82356e14fd5e4d1506"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/plugin-http/zipball/b6ad183e193f25ef09119e3fc65057f5be23cffd",
-                "reference": "b6ad183e193f25ef09119e3fc65057f5be23cffd",
+                "url": "https://api.github.com/repos/sitedyno/plugin-http/zipball/bee37c29fdc1f8ef69752c82356e14fd5e4d1506",
+                "reference": "bee37c29fdc1f8ef69752c82356e14fd5e4d1506",
                 "shasum": ""
             },
             "require": {
                 "phergie/phergie-irc-bot-react": "~2.0",
                 "phergie/phergie-irc-plugin-dns": "^4.0",
-                "php": "^5.5||^7.0",
+                "php": "^7.0||^5.6",
                 "wyrihaximus/react-guzzle-ring": "^1.0"
             },
             "require-dev": {
@@ -1101,7 +1101,11 @@
                     "Phergie\\Plugin\\Http\\": "src"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "Phergie\\Tests\\Plugin\\Http\\": "tests"
+                }
+            },
             "license": [
                 "MIT"
             ],
@@ -1120,7 +1124,11 @@
                 "plugin",
                 "react"
             ],
-            "time": "2016-01-13 14:24:19"
+            "support": {
+                "irc": "irc://irc.freenode.net/phergie",
+                "source": "https://github.com/sitedyno/plugin-http/tree/pass-headers-to-guzzle-request"
+            },
+            "time": "2016-12-24 04:50:51"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-autojoin",
@@ -1571,22 +1579,23 @@
         },
         {
             "name": "phergie/phergie-irc-plugin-react-twitter",
-            "version": "1.0.1",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phergie/phergie-irc-plugin-react-twitter.git",
-                "reference": "bd968349b60dcb5e0b18bebd3df848559efb3591"
+                "reference": "017e01558ed8831da7e5034ed7e37691241a8ad9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-twitter/zipball/bd968349b60dcb5e0b18bebd3df848559efb3591",
-                "reference": "bd968349b60dcb5e0b18bebd3df848559efb3591",
+                "url": "https://api.github.com/repos/phergie/phergie-irc-plugin-react-twitter/zipball/017e01558ed8831da7e5034ed7e37691241a8ad9",
+                "reference": "017e01558ed8831da7e5034ed7e37691241a8ad9",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/oauth-subscriber": "~0.1",
                 "nesbot/carbon": "~1",
-                "phergie/phergie-irc-plugin-react-url": "~3"
+                "phergie/phergie-irc-plugin-react-url": "~3",
+                "php": ">= 5.6"
             },
             "require-dev": {
                 "phake/phake": "2.0.0-beta2",
@@ -1610,7 +1619,7 @@
                 "plugin",
                 "twitter"
             ],
-            "time": "2016-03-21 02:30:38"
+            "time": "2016-10-23 16:02:39"
         },
         {
             "name": "phergie/phergie-irc-plugin-react-url",
@@ -2771,11 +2780,26 @@
         }
     ],
     "packages-dev": [],
-    "aliases": [],
+    "aliases": [
+        {
+            "alias": "4.0.1",
+            "alias_normalized": "4.0.1.0",
+            "version": "dev-pass-headers-to-guzzle-request",
+            "package": "phergie/phergie-irc-plugin-http"
+        },
+        {
+            "alias": "1.0.1",
+            "alias_normalized": "1.0.1.0",
+            "version": "9999999-dev",
+            "package": "phergie/phergie-irc-plugin-react-twitter"
+        }
+    ],
     "minimum-stability": "dev",
     "stability-flags": {
         "chrismou/phergie-irc-plugin-react-pingpong": 20,
         "chrismou/phergie-irc-plugin-react-weather": 20,
+        "phergie/phergie-irc-plugin-http": 20,
+        "phergie/phergie-irc-plugin-react-twitter": 20,
         "renegade334/phergie-irc-plugin-react-ping": 20,
         "sitedyno/phergie-steam": 20,
         "sitedyno/phergie-twitch-status": 20

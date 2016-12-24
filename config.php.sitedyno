@@ -53,7 +53,7 @@ $steamPlugin = new SteamPlugin;
 
 $table_flip = new TableFlipPlugin;
 
-$twitchPlugin = new TwitchPlugin;
+$twitchPlugin = new TwitchPlugin(['clientId' => getenv('TWITCH_CLIENT_ID')]);
 
 $usermode = new UserModePlugin;
 
