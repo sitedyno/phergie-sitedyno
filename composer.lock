@@ -2451,12 +2451,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitedyno/phergie-twitch-status.git",
-                "reference": "598bb45dfcbc5ed5a152526df93ab3d250012728"
+                "reference": "735b73110c1b1f6e57b21c1187f9f28b957f7d6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-twitch-status/zipball/598bb45dfcbc5ed5a152526df93ab3d250012728",
-                "reference": "598bb45dfcbc5ed5a152526df93ab3d250012728",
+                "url": "https://api.github.com/repos/sitedyno/phergie-twitch-status/zipball/735b73110c1b1f6e57b21c1187f9f28b957f7d6a",
+                "reference": "735b73110c1b1f6e57b21c1187f9f28b957f7d6a",
                 "shasum": ""
             },
             "require": {
@@ -2507,7 +2507,7 @@
                 "issues": "https://github.com/sitedyno/phergie-twitch-status/issues",
                 "source": "https://github.com/sitedyno/phergie-twitch-status"
             },
-            "time": "2016-02-14 00:12:48"
+            "time": "2016-12-24 03:39:43"
         },
         {
             "name": "symfony/polyfill-mbstring",
