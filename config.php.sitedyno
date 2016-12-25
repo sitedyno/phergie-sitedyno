@@ -39,6 +39,12 @@ use Sitedyno\Phergie\Plugin\TwitchStatus\Plugin as TwitchPlugin;
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
+$streamHandler = new \Monolog\Handler\StreamHandler('phergie-' . date('c') . '.log', \Monolog\Logger::DEBUG);
+$logger = new \Monolog\Logger(
+    'phergie',
+    $streamHandler
+);
+
 $bofh = new BofhPlugin([]);
 
 $dice = new DicePlugin;
@@ -66,6 +72,8 @@ $weather = new WeatherPlugin([
 $quit = new QuitPlugin;
 
 return [
+
+    'logger' => $logger,
 
     'plugins' => [
 
