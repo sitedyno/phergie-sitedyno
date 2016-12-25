@@ -42,7 +42,7 @@ $dotenv->load();
 $streamHandler = new \Monolog\Handler\StreamHandler('phergie-' . date('c') . '.log', \Monolog\Logger::DEBUG);
 $logger = new \Monolog\Logger(
     'phergie',
-    $streamHandler
+    [$streamHandler]
 );
 
 $bofh = new BofhPlugin([]);
