@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a0ba9cd363537574d3509595e8434936",
-    "content-hash": "d036f0a092422da6793d9989ebf2f8a1",
+    "hash": "710c10e4639b032dc973214b4f736dfb",
+    "content-hash": "7b78116a6d210025f5d02b38b4ab7672",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-dice",
@@ -2323,6 +2323,48 @@
                 "source": "https://github.com/Renegade334/phergie-irc-plugin-react-ping"
             },
             "time": "2015-12-29 19:02:43"
+        },
+        {
+            "name": "sitedyno/irc-format-stripper",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sitedyno/irc-format-stripper.git",
+                "reference": "8ed5ca72d604a5fede2539b377338c5442db33a0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sitedyno/irc-format-stripper/zipball/8ed5ca72d604a5fede2539b377338c5442db33a0",
+                "reference": "8ed5ca72d604a5fede2539b377338c5442db33a0",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~4",
+                "squizlabs/php_codesniffer": "^2.6"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sitedyno\\Irc\\Format\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Heath Nail",
+                    "email": "sitedyno@gmail.com"
+                }
+            ],
+            "description": "Strips irc formatters from a string",
+            "keywords": [
+                "color",
+                "format",
+                "irc"
+            ],
+            "time": "2016-05-21 04:13:48"
         },
         {
             "name": "sitedyno/phergie-reminders",

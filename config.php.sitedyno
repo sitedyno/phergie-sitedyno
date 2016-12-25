@@ -32,6 +32,7 @@ use Phergie\Plugin\Http\Plugin as HttpPlugin;
 use PSchwisow\Phergie\Plugin\UrlShorten\Plugin as UrlShortenPlugin;
 use PSchwisow\Phergie\Plugin\Puppet\Plugin as PuppetPlugin;
 use Renegade334\Phergie\Plugin\React\Ping\Plugin as PingPlugin;
+use Sitedyno\Irc\Format;
 use Sitedyno\Phergie\Plugin\Reminders\Plugin as RemindersPlugin;
 use Sitedyno\Phergie\Plugin\Steam\Plugin as SteamPlugin;
 use Sitedyno\Phergie\Plugin\TwitchStatus\Plugin as TwitchPlugin;
@@ -44,6 +45,10 @@ $logger = new \Monolog\Logger(
     'phergie',
     [$streamHandler]
 );
+$logger->pushProcessor(function($record) {
+    $stripper = new Stripper;
+    return $stripper->strip($record);
+});
 
 $bofh = new BofhPlugin([]);
 

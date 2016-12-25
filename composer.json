@@ -54,6 +54,7 @@
         "pschwisow/phergie-irc-plugin-react-puppet": "^2.0",
         "chrismou/phergie-irc-plugin-react-dice": "^2.0",
         "elstamey/phergie-irc-plugin-react-tableflip": "^1.4",
-        "sitedyno/phergie-reminders": "^2.0"
+        "sitedyno/phergie-reminders": "^2.0",
+        "sitedyno/irc-format-stripper": "^1.0"
     }
 }
