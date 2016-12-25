@@ -32,7 +32,7 @@ use Phergie\Plugin\Http\Plugin as HttpPlugin;
 use PSchwisow\Phergie\Plugin\UrlShorten\Plugin as UrlShortenPlugin;
 use PSchwisow\Phergie\Plugin\Puppet\Plugin as PuppetPlugin;
 use Renegade334\Phergie\Plugin\React\Ping\Plugin as PingPlugin;
-use Sitedyno\Irc\Format;
+use Sitedyno\Irc\Format\Stripper;
 use Sitedyno\Phergie\Plugin\Reminders\Plugin as RemindersPlugin;
 use Sitedyno\Phergie\Plugin\Steam\Plugin as SteamPlugin;
 use Sitedyno\Phergie\Plugin\TwitchStatus\Plugin as TwitchPlugin;
