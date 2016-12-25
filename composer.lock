@@ -2326,16 +2326,16 @@
         },
         {
             "name": "sitedyno/irc-format-stripper",
-            "version": "v1.0.0",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitedyno/irc-format-stripper.git",
-                "reference": "8ed5ca72d604a5fede2539b377338c5442db33a0"
+                "reference": "81247b7bb6146f403070b14b2a809b0e58e9b8bb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/irc-format-stripper/zipball/8ed5ca72d604a5fede2539b377338c5442db33a0",
-                "reference": "8ed5ca72d604a5fede2539b377338c5442db33a0",
+                "url": "https://api.github.com/repos/sitedyno/irc-format-stripper/zipball/81247b7bb6146f403070b14b2a809b0e58e9b8bb",
+                "reference": "81247b7bb6146f403070b14b2a809b0e58e9b8bb",
                 "shasum": ""
             },
             "require-dev": {
@@ -2364,7 +2364,7 @@
                 "format",
                 "irc"
             ],
-            "time": "2016-05-21 04:13:48"
+            "time": "2016-12-25 23:45:51"
         },
         {
             "name": "sitedyno/phergie-reminders",
