@@ -40,14 +40,18 @@ use Sitedyno\Phergie\Plugin\TwitchStatus\Plugin as TwitchPlugin;
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
 
-$streamHandler = new \Monolog\Handler\StreamHandler('phergie-' . date('c') . '.log', \Monolog\Logger::DEBUG);
+$stripper = new Stripper;
+$streamHandler = new \Monolog\Handler\StreamHandler(
+    'phergie-' . date('c') . '.log',
+    \Monolog\Logger::DEBUG
+);
 $logger = new \Monolog\Logger(
     'phergie',
     [$streamHandler]
 );
-$logger->pushProcessor(function($record) {
-    $stripper = new Stripper;
-    return $stripper->strip($record);
+$logger->pushProcessor(function($record) use ($stripper) {
+    $record['message'] = $stripper->strip($record['message']);
+    return $record;
 });
 
 $bofh = new BofhPlugin([]);
