@@ -21,10 +21,6 @@
         {
             "type": "vcs",
             "url": "https://github.com/sitedyno/phergie-steam"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/sitedyno/plugin-http"
         }
     ],
     "require": {
@@ -32,7 +28,7 @@
         "chrismou/phergie-irc-plugin-react-weather": "dev-version2-updates",
         "phergie/phergie-irc-bot-react": "^2",
         "phergie/phergie-irc-plugin-dns": "^4",
-        "phergie/phergie-irc-plugin-http": "dev-pass-headers-to-guzzle-request as 4.0.1",
+        "phergie/phergie-irc-plugin-http": "^4",
         "phergie/phergie-irc-plugin-react-autojoin": "^2",
         "phergie/phergie-irc-plugin-react-bofh": "^3",
         "phergie/phergie-irc-plugin-react-commandhelp": "^2",
