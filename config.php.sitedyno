@@ -130,7 +130,13 @@ return [
             ]), # CHANGE ME
         ]),
 
-        new HttpPlugin,
+        new HttpPlugin([
+            'defaults' => [
+                'headers' => [
+                    'User-Agent' => getenv('USERAGENT')
+                ]
+            ]
+        ]),
 
         $joinpart,
 
