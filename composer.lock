@@ -2403,12 +2403,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitedyno/phergie-fortune.git",
-                "reference": "6299acbedc03b338ab99886f4bc8924501ba2098"
+                "reference": "9b52447f02666b35b3aef30ffd90b5d8030f9c41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-fortune/zipball/6299acbedc03b338ab99886f4bc8924501ba2098",
-                "reference": "6299acbedc03b338ab99886f4bc8924501ba2098",
+                "url": "https://api.github.com/repos/sitedyno/phergie-fortune/zipball/9b52447f02666b35b3aef30ffd90b5d8030f9c41",
+                "reference": "9b52447f02666b35b3aef30ffd90b5d8030f9c41",
                 "shasum": ""
             },
             "require": {
@@ -2440,6 +2440,11 @@
                     "Sitedyno\\PhergieFortune\\Tests\\": "tests"
                 }
             },
+            "scripts": {
+                "cs-check": [
+                    "phpcs --colors -p --standard=PSR1,PSR2 src/ tests/"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -2464,7 +2469,7 @@
                 "issues": "https://github.com/sitedyno/phergie-fortune/issues",
                 "source": "https://github.com/sitedyno/phergie-fortune"
             },
-            "time": "2017-05-03 05:12:50"
+            "time": "2017-05-04 10:54:32"
         },
         {
             "name": "sitedyno/phergie-reminders",
