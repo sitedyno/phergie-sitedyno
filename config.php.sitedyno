@@ -36,6 +36,7 @@ use Sitedyno\Irc\Format\Stripper;
 use Sitedyno\Phergie\Plugin\Reminders\Plugin as RemindersPlugin;
 use Sitedyno\Phergie\Plugin\Steam\Plugin as SteamPlugin;
 use Sitedyno\Phergie\Plugin\TwitchStatus\Plugin as TwitchPlugin;
+use Sitedyno\PhergieFortune\Plugin as FortunePlugin;
 
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
@@ -197,6 +198,7 @@ return [
                 . ' %published% %views% Views %likes% Likes',
         ]),
 
+        new FortunePlugin,
     ],
 
     'connections' => [

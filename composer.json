@@ -21,6 +21,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/sitedyno/phergie-steam"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/sitedyno/phergie-fortune"
         }
     ],
     "require": {
@@ -51,6 +55,7 @@
         "chrismou/phergie-irc-plugin-react-dice": "^2.0",
         "elstamey/phergie-irc-plugin-react-tableflip": "^1.4",
         "sitedyno/phergie-reminders": "^2.0",
-        "sitedyno/irc-format-stripper": "^1.0"
+        "sitedyno/irc-format-stripper": "^1.0",
+        "sitedyno/phergie-fortune": "dev-master"
     }
 }
