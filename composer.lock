@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "cd6a34a5b4617f8338b799110f0a4207",
+    "content-hash": "748f3a76e3ebdfacf1bbb5c3cdd62352",
     "packages": [
         {
             "name": "chrismou/phergie-irc-plugin-react-dice",
@@ -2403,12 +2403,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sitedyno/phergie-fortune.git",
-                "reference": "9b52447f02666b35b3aef30ffd90b5d8030f9c41"
+                "reference": "e196e004fabfcb29016a9a067512b050e30446b4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sitedyno/phergie-fortune/zipball/9b52447f02666b35b3aef30ffd90b5d8030f9c41",
-                "reference": "9b52447f02666b35b3aef30ffd90b5d8030f9c41",
+                "url": "https://api.github.com/repos/sitedyno/phergie-fortune/zipball/e196e004fabfcb29016a9a067512b050e30446b4",
+                "reference": "e196e004fabfcb29016a9a067512b050e30446b4",
                 "shasum": ""
             },
             "require": {
@@ -2469,7 +2469,7 @@
                 "issues": "https://github.com/sitedyno/phergie-fortune/issues",
                 "source": "https://github.com/sitedyno/phergie-fortune"
             },
-            "time": "2017-05-04 10:54:32"
+            "time": "2017-05-07 19:47:45"
         },
         {
             "name": "sitedyno/phergie-reminders",
@@ -2942,8 +2942,7 @@
         "phergie/phergie-irc-plugin-react-twitter": 20,
         "renegade334/phergie-irc-plugin-react-ping": 20,
         "sitedyno/phergie-steam": 20,
-        "sitedyno/phergie-twitch-status": 20,
-        "sitedyno/phergie-fortune": 20
+        "sitedyno/phergie-twitch-status": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
